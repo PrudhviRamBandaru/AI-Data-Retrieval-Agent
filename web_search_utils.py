@@ -5,7 +5,7 @@ import time
 def web_search(query):
     """Perform a web search for the given query using SerpAPI"""
     url = "https://serpapi.com/search"
-    params = {"q": query, "api_key": "ENTER-YOUR-SERPAPI=KEY"}
+    params = {"q": query, "api_key": "ENTER-YOUR-SERP-API-KEY"}
     max_retries = 3
 
     for attempt in range(max_retries):
